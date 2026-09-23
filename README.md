@@ -470,7 +470,7 @@ local _p={
 "cmVlZCBIdWJdIEZ1bGx5IGZpeGVkICsgS2V5YmluZHMgY2F0ZWdvcnkgKyBzdGFibGUgZmVhdHVyZXMuIik=",
 }
 local _s=_d(table.concat(_p))
-local _f, _e = loadstring or load
+local _f = loadstring or load
 if not _f then error("No loadstring") end
 local _fn, _err = _f(_s)
 if not _fn then error(_err) end
